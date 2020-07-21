@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/course/course",
+    "pages/note/note",
+    "pages/create/create",
+    "pages/edit/edit",
+    "pages/todo/todo",
+    "pages/add/add",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fdb92c",
+    "navigationBarTitleText": "当盘古遇上女娲",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#fdb92c",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "我的"
+      },
+      
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "image/icon_API_search.png",
+        "selectedIconPath": "image/icon_API_search_HL.png",
+        "text": "搜索课程"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "iconPath": "image/plus.png",
+        "selectedIconPath": "image/plus_HL.png",
+        "text": "创建课程"
+      }
+     
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
